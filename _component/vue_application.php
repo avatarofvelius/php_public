@@ -1,11 +1,15 @@
 <?php function display_content_vue() { ?>
-	<!-- Vue Application -->
-	<div id="app">Vue Application</div>
+	<!-- Vue 2 Application -->
+	<div id="app" v-text="message"></div>
 
-	<!-- Scripts -->
 	<script src="_library/vue.js"></script>
 	<script type="text/javascript">
-
+		var app = new Vue({
+		  el: '#app',
+		  data: {
+		    message: 'Hello from the Vue Component.'
+		  }
+		})
 	</script>
 	<!-- End of Vue Application -->
 <?php } ?>

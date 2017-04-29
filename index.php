@@ -12,7 +12,7 @@
 <head>
 	<!-- Style Sheets -->
 	<link rel="stylesheet" media="screen" href="index.css" />
-	<!-- <link rel="stylesheet" media="screen" href="css/_s.css" /> -->
+	<link rel="stylesheet" media="screen" href="s.css" />
 
 	<!-- Component Style Sheets -->
 	<link rel="stylesheet" href="_component/canvas_application.css" />
@@ -32,10 +32,10 @@
 <body>
 <?php display_header(); ?>
 
-<?php //display_content_canvas(); ?>
+<?php display_content_canvas(); ?>
 
 
-<?php //display_content_vue(); ?>
+<?php display_content_vue(); ?>
 
 <?php display_footer(); ?>
 </body>
